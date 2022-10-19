@@ -1,0 +1,20 @@
+[
+  {
+    "category": "servere-error",
+    "department": "service-desk",
+    "message": "The network is down.",
+    "lastUpdateDate": "2022-10-18"
+  },
+  {
+    "category": "volume-error",
+    "department": "service-desk",
+    "message": "There is a long wait time for Payments.",
+    "lastUpdateDate": "2022-10-18"
+  },
+  {
+    "category": "information",
+    "department": "billing",
+    "message": "You can now use Venmo to pay your bill.",
+    "lastUpdateDate": "2022-10-18"
+  }
+] 
