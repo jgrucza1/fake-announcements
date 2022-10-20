@@ -30,6 +30,11 @@ namespace fake_announcements.Controllers
         [HttpGet("dept")]
         public async Task<ActionResult<IEnumerable<Announcement>>> GetAnnouncements(string dept)
         {
+            if (string.IsNullOrWhiteSpace(dept))
+            {
+                return BadRequest();
+            }
+
             var announcements = _repository.GetAnnouncements(dept);
             if (announcements == null || announcements.Count == 0)
             {
